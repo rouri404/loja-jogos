@@ -9,7 +9,8 @@ margin-top: auto;
 
 display: flex;
 justify-content: space-around;
-max-width: 1200px
+max-width: 1200px;
+margin-top: 100px;
 margin: auto;
 
 h3{
