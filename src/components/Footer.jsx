@@ -1,8 +1,9 @@
 import React from 'react'
+import { FooterContainer } from './styles/FooterStyled'
 
 const Footer = () => {
   return (
-    <>
+    <FooterContainer>
     <div className='contato'>
         <h3>Contato</h3>
         <p>Email: contato@lojajogos.com</p>
@@ -21,7 +22,7 @@ const Footer = () => {
         <li><a href="#">Twitter</a></li>
       </ul>
     </div>
-    </>
+    </FooterContainer>
   )
 }
 
