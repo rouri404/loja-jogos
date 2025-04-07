@@ -6,6 +6,7 @@ import Home from './routes/Home'
 import Login from './routes/Login'
 import Filtro from './routes/Filtro'
 import Jogador from './routes/Jogador'
+import Produtos from './routes/Produtos'
 import Dados from './data/dados.json'
 import Aside from './routes/Aside'
 import { createGlobalStyle } from 'styled-components'
@@ -58,6 +59,7 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='filtro' element={<Filtro/>}/>
         <Route path='/jogador' element={<Jogador/>}/>
+        <Route path='/produtos' element={<Produtos/>}/>
       </Routes>
       <Aside/>
       <Footer/>

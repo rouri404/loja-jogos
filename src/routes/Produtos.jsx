@@ -1,7 +1,9 @@
 import React from 'react'
+import { ProdutoContainer } from '../components/styles/ProdutosStyled'
 
 const Produtos = ({imagem, titulo, descricao, preco}) => {
   return (
+    <ProdutoContainer>
     <article className='produto'>
       <img src={imagem} alt={titulo}></img>
       <h3>{titulo}</h3>
@@ -9,6 +11,7 @@ const Produtos = ({imagem, titulo, descricao, preco}) => {
       <p className='preco'>{preco}</p>
       <button>Comprar</button>
     </article>
+    </ProdutoContainer>
   )
 }
 
